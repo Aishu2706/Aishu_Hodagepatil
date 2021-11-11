@@ -1,0 +1,4 @@
+create table user905(id number,name varchar2(30),password varchar2(30),
+		email varchar2(30),country varchar2(30));
+select * from user905
+create sequence crud increment by 1 start with 1;
